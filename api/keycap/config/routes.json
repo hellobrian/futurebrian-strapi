@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/keycaps",
+      "handler": "keycap.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/keycaps/count",
+      "handler": "keycap.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/keycaps/:id",
+      "handler": "keycap.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/keycaps",
+      "handler": "keycap.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/keycaps/:id",
+      "handler": "keycap.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/keycaps/:id",
+      "handler": "keycap.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
