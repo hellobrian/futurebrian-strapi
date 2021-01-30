@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "keycaps",
   "info": {
-    "name": "keycap"
+    "name": "keycap",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,17 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "hero_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
