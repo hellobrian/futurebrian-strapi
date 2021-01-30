@@ -24,6 +24,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "vendor_link": {
+      "type": "string"
+    },
+    "interest_check_link": {
+      "type": "string"
     }
   }
 }
