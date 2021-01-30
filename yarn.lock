@@ -10198,7 +10198,7 @@ strapi-plugin-email@3.4.5:
     strapi-provider-email-sendmail "3.4.5"
     strapi-utils "3.4.5"
 
-strapi-plugin-graphql@3.4.5:
+strapi-plugin-graphql@^3.4.5:
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/strapi-plugin-graphql/-/strapi-plugin-graphql-3.4.5.tgz#330262b563d2ba29845f57ab20629685c79a72a9"
   integrity sha512-yR5202PxFU8LPA8OKYzNzX0e+/1U8IuQPLOK3TCTNkXFaFfjKhNbQjRuQ6T+VHok4ScS03+iBuMXtphfJrdrgA==
