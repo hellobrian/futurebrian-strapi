@@ -33,6 +33,15 @@
     },
     "blog": {
       "type": "richtext"
+    },
+    "groupbuy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "groupbuy.groupbuy"
+    },
+    "round": {
+      "type": "integer",
+      "default": 1
     }
   }
 }

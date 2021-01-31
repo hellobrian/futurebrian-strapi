@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_groupbuy_groupbuys",
+  "info": {
+    "name": "groupbuy",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "groupbuy_start": {
+      "type": "date"
+    },
+    "groupbuy_end": {
+      "type": "date"
+    }
+  }
+}
