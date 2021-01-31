@@ -30,6 +30,9 @@
     },
     "interest_check_link": {
       "type": "string"
+    },
+    "blog": {
+      "type": "richtext"
     }
   }
 }

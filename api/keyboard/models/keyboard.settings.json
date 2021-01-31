@@ -30,6 +30,9 @@
     },
     "vendor_link": {
       "type": "string"
+    },
+    "blog": {
+      "type": "richtext"
     }
   }
 }
