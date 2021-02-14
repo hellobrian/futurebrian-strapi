@@ -42,6 +42,10 @@
     "round": {
       "type": "integer",
       "default": 1
+    },
+    "videos": {
+      "via": "keycaps",
+      "collection": "videos"
     }
   }
 }
