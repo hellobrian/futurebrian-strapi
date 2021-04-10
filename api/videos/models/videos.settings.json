@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "videos",
   "info": {
-    "name": "videos"
+    "name": "videos",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,7 +14,7 @@
     "name": {
       "type": "string"
     },
-    "link": {
+    "embed_link": {
       "type": "string"
     },
     "keyboards": {
@@ -25,6 +26,9 @@
       "collection": "keycap",
       "via": "videos",
       "dominant": true
+    },
+    "direct_link": {
+      "type": "string"
     }
   }
 }
