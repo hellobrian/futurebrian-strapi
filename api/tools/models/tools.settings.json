@@ -20,10 +20,8 @@
     "vendor": {
       "type": "string"
     },
-    "tags": {
-      "type": "component",
-      "repeatable": false,
-      "component": "tags.tags"
+    "info": {
+      "type": "richtext"
     }
   }
 }
