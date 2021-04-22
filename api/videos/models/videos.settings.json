@@ -18,13 +18,13 @@
       "type": "string"
     },
     "keyboards": {
-      "collection": "keyboard",
       "via": "videos",
+      "collection": "keyboard",
       "dominant": true
     },
     "keycaps": {
-      "collection": "keycap",
       "via": "videos",
+      "collection": "keycap",
       "dominant": true
     },
     "direct_link": {

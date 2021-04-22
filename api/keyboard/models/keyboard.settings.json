@@ -17,17 +17,6 @@
     "interest_check_link": {
       "type": "string"
     },
-    "hero_image": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "vendor_link": {
       "type": "string"
     },
@@ -44,8 +33,11 @@
       "component": "groupbuy.groupbuy"
     },
     "videos": {
-      "via": "keyboards",
-      "collection": "videos"
+      "collection": "videos",
+      "via": "keyboards"
+    },
+    "thumbnail_public_id": {
+      "type": "string"
     }
   }
 }
