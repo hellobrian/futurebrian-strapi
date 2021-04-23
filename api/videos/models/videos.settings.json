@@ -18,16 +18,19 @@
       "type": "string"
     },
     "keyboards": {
-      "via": "videos",
       "collection": "keyboard",
+      "via": "videos",
       "dominant": true
     },
     "keycaps": {
-      "via": "videos",
       "collection": "keycap",
+      "via": "videos",
       "dominant": true
     },
     "direct_link": {
+      "type": "string"
+    },
+    "thumbnail_src": {
       "type": "string"
     }
   }
