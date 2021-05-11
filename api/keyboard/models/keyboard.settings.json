@@ -33,11 +33,20 @@
       "component": "groupbuy.groupbuy"
     },
     "videos": {
-      "via": "keyboards",
-      "collection": "videos"
+      "collection": "videos",
+      "via": "keyboards"
     },
     "thumbnail_public_id": {
       "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "interested",
+        "purchased",
+        "storage",
+        "using"
+      ]
     }
   }
 }
